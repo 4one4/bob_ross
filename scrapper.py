@@ -20,10 +20,6 @@ for a in anchors:
    painting_numbers.append((a['href']).replace('/painting/', ''))
 
 
-
-
-
-
 for painting_num in painting_numbers:
     
     #let's get our 'key' the season/episode
