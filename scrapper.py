@@ -40,7 +40,7 @@ for a in anchors:
    painting_numbers.append((a['href']).replace('/painting/', ''))
 
 
-for painting_num in painting_numbers[:5]:
+for painting_num in painting_numbers:
     
     #let's get our 'key' the season/episode
     page = get(painting_base_url + painting_num)
