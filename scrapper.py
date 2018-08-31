@@ -73,7 +73,7 @@ for painting_num in painting_numbers:
 
 df_painting_colors.fillna('0', inplace=True)
 
-df_painting_colors.to_csv('painting_colors.csv')
+df_painting_colors.to_csv('painting_colors.csv', index=False)
 
     #download the painting image - ONLY IF DATA ISN'T ALREADY SCRAPED
     #img_data = requests.get(image_base_url + painting_num + '.png').content
